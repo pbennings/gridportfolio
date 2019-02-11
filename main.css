@@ -183,11 +183,9 @@ footer {
     margin: auto;
 }
 
-@media(max-width: 500px) {
-    .top-container {
-        grid-template-areas:
-        'showcase'
-        'top-box-a'
-        'top-box-b';
-    }
+@media screen and (max-width: 600px) {
+  body {
+      background-color: lightblue;
+  }
+
 }
