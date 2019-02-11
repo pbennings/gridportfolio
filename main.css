@@ -97,12 +97,12 @@ img {
     color: var(--light);
 }
 
-/* Top */
+/* Top Box */
 .top-box {
     background: var(--primary);
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
     box-shadow: var(--shadow);
     padding: 1.5rem;
 }
@@ -147,7 +147,7 @@ img {
 }
 
 .portfolio img {
-    border-right-width: 100%
+    border-right-width: 100%;
     box-shadow: var(--shadow);
 }
 
@@ -161,7 +161,7 @@ footer {
 }
 
 /* Media Queries */
-@media(max-width: 700px) {
+@media (max-width: 700px) {
     .top-container {
         grid-template-areas:
         'showcase showcase'
